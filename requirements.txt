@@ -1,0 +1,8 @@
+streamlit
+pydeck
+pandas
+numpy
+plotly
+streamlit-aggrid
+shapely
+requests
