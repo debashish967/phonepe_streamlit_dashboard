@@ -109,3 +109,7 @@ Feel free to open issues or pull requests.
 ## 📜 License
 MIT License
 
+🧑‍💻 Developed By
+
+Debashish Borah
+Designed & Built with ❤️ using Python, Streamlit & SQLite
