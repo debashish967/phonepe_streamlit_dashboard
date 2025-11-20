@@ -1,9 +1,0 @@
-streamlit==1.32.0
-pandas==2.1.4
-numpy
-plotly
-pydeck
-streamlit-aggrid
-shapely
-requests
-pillow==10.3.0
