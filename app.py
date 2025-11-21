@@ -6,7 +6,7 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 import plotly.express as px
-
+os.environ["STREAMLIT_SERVER_FILE_WATCHER_TYPE"] = "none"
 # pydeck for 3D map
 try:
     import pydeck as pdk
@@ -527,4 +527,5 @@ except Exception as e:
 # Footer / notes
 # -----------------------
 st.markdown("---")
+
 st.caption(f"DB: {db_file} — Features loaded: {len(india_geo.get('features', []))} — Developer: Debashish Borah")
