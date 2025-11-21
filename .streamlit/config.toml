@@ -1,8 +1,4 @@
 [server]
-runOnSave = false
-maxUploadSize = 300
-enableWebsocketCompression = false
-fileWatcherType = "none"
-
-[global]
-disableWidgetStateDuplicationWarning = true
+headless = true
+enableCORS = false
+port = $PORT
