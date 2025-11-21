@@ -1,0 +1,5 @@
+[server]
+runOnSave = false
+maxUploadSize = 300
+enableWebsocketCompression = false
+fileWatcherType = "none"
