@@ -1,4 +1,5 @@
 import os
+os.environ["STREAMLIT_SERVER_FILE_WATCHER_TYPE"] = "none"
 import json
 import sqlite3
 from math import fsum
@@ -529,3 +530,4 @@ except Exception as e:
 st.markdown("---")
 
 st.caption(f"DB: {db_file} — Features loaded: {len(india_geo.get('features', []))} — Developer: Debashish Borah")
+
